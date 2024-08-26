@@ -21,4 +21,11 @@ n1 = 3
 n2 = 20
 media = (n1 + n2)/2
 
-print("A média é: ", media)
+print("A média por atribuição é: ", media)
+
+n1 = int (input("Digite n1: "))
+n2 = int (input("Digite n2: "))
+
+media = (n1 + n2)/2
+
+print("A média por leitura é: ", media)
